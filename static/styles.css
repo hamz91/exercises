@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+
+  border-style: solid;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: black;
+  border-left-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: red;
+}
+
+.header__links {
+  text-align: center;
+  padding: 5px;
+  columns: 2;
+}
+
+.exercise1 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 5px;
+}
